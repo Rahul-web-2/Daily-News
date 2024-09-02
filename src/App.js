@@ -13,7 +13,6 @@ export default class App extends Component {
     return (
       <>
         <Router>
-          {/* Navbar is placed outside of Routes so that it appears on every page */}
           <Navbar title="Welcome" />
           <Routes>
             <Route
