@@ -1,10 +1,89 @@
+# 📰 Daily News – React News App
+
+![React](https://img.shields.io/badge/React-18-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![API](https://img.shields.io/badge/API-NewsAPI-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+Daily News is a responsive React.js web application that displays top headlines and the latest news across multiple categories such as Sports, Business, Technology, Health, and World. News is fetched dynamically using the News API and rendered in real time.
+
+---
+
+## 🚀 Features
+
+- 🗞 View top headlines
+- 📂 Category-wise news browsing
+- ⚡ Real-time API data fetching
+- 🧱 Component-based React architecture
+- 📱 Responsive UI
+- 🔄 Dynamic content rendering
+- ⏳ Loading indicators
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS / Bootstrap
+- News API
+
+---
+
+## 📁 Project Structure
+
+Daily-News/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── News.js
+│   │   ├── NewsItem.js
+│   ├── App.js
+│   ├── index.js
+├── public/
+├── package.json
+└── README.md
+
+
+🔑 API Setup
+
+This project uses News API.
+
+Step 1 — Get API Key
+
+Visit: https://newsapi.org
+
+Create a free account
+
+Generate your API key
+
+Step 2 — Add API Key
+
+Open your project and replace:
+apiKey="YOUR_API_KEY"
+inside your News component or environment config.
+
+🧠 What I Learned
+
+API integration in React
+Component-based architecture
+Props and state handling
+useEffect for data fetching
+Conditional rendering
+Pagination
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+🚀 Run Locally
+1️⃣ Clone the repository
+git clone https://github.com/Rahul-web-2/Daily-News.git
+2️⃣ Move into the project folder
+cd Daily-News
+3️⃣ Install dependencies
+npm install
 
 ### `npm start`
 
@@ -68,3 +147,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
